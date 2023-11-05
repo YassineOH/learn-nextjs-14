@@ -15,6 +15,14 @@ async function LoginPage() {
           </div>
         </div>
         <LoginForm />
+        <div className='border w-full space-y-4 rounded-md p-4'>
+          <p>
+            <span className='font-bold'>email:</span> user@nextmail.com
+          </p>
+          <p>
+            <span className='font-bold'>passowrd:</span> 123456
+          </p>
+        </div>
       </div>
     </main>
   );
